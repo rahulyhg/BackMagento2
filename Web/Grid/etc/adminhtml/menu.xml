@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Web_Grid Menu
+ *
+ * @category    Web
+ * @package     Web_Grid
+ * @author      Web Software Private Limited
+ *
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+
+        <add id="Web_Grid::add_row" title="Classmates Manager" module="Web_Grid" sortOrder="10"  action="grid/grid" resource="Web_Grid::add_row"/>
+    </menu>
+</config>
